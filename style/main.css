@@ -1,1 +1,23 @@
 @import url(./font.css);
+
+
+/* O'zgaruvchilar */
+
+:root {
+    --RR: 'Roboto-Regular', sans-serif;
+    --RB: 'Roboto-Bold', sans-serif;
+    --primary: rgba(50, 46, 65, 1);
+    --secondary: #fff;
+    --title_color: rgba(44, 42, 42, 1);
+    --text_color: rgba(155, 155, 155, 1);
+    --gold: rgba(212, 115, 0, 1);
+    --violet: rgba(84, 66, 148, 1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
