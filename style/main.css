@@ -159,3 +159,88 @@
 
 
 /*************************************** category section finished ***********************************/
+
+/************************************** footer section started **************************************/
+
+.page__footer {
+    background-color: var(--dark);
+    padding: 47px 0;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    gap: 11px;
+}
+
+.form__input,
+.form__textarea {
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+}
+
+.form__input:focus,
+.form__textarea {
+    outline: none;
+}
+
+::placeholder {
+    color: rgba(155, 155, 155, 1);
+    font-family: var(--RR);
+    font-size: 16px;
+    line-height: 13px;
+}
+
+.form__btn {
+    padding: 6px 0;
+    background-color: var(--violet);
+    color: var(--light);
+    color: rgba(255, 255, 255, 1);
+    font-family: var(--RR);
+    font-size: 16px;
+    line-height: 13px;
+    border: none;
+    border-radius: 6px;
+}
+
+.form__textarea {
+    resize: none;
+}
+
+
+.footer__nav {
+    width: 237px;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer__nav-link {
+    color: var(--light);
+    font-family: var(--RR);
+    font-size: 16px;
+    line-height: 19px;
+    transition: .3s;
+}
+
+.footer__nav-link:hover {
+    color: var(--gold);
+}
+
+.social__media {
+    display: flex;
+    gap: 15px;
+}
+
+/************************************** footer section finished **************************************/
